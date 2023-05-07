@@ -1,0 +1,159 @@
+<style>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    /*css reset*/
+    body{
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/gym.jpg');
+        background-size: cover;
+    }
+    .left{
+        color: black;
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        display: inline-block;
+        /*border: 2px solid red;*/
+    }
+   
+    .left div{
+        text-align: center;
+    }
+    .mid{
+        
+       
+        display: block;
+        height: 100px;
+        width: 80%;
+        margin: auto;
+         top: 50px;
+        /*border: 2px solid green;*/
+    }
+    .right{
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+       /* border: 2px solid yellow;*/
+    }
+    .navbar{
+      
+
+        display: inline-block;
+        color: black;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 13px;
+    }
+    .navbar li a{
+        
+        height: 100px;
+       width: 174px;
+       left: 500px;
+       top: 67px;
+        border-radius: nullpx;
+
+        color: black;
+        text-decoration: none;
+        padding: 70px;
+    }
+    .navbar li a:hover, .navbar li a.active{
+        text-decoration: underline;
+        color: orange;
+    }
+    .btn{
+        height: 44px;
+        width: 153px;
+        top: 98px;
+        border-radius: 22px;
+        margin: 0px 9px;
+        background-color: white;
+        color: black;
+        padding: 9px 14px;
+        border: 2px solid black;
+        border-radius: 22px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: grey;
+    }
+    .container{
+        position: absolute;
+        size: 20px;
+        height: 571px;
+       width: 571px;
+       left: 1400px;
+        top: -130px;
+       border-radius: 0px;
+
+        color: green;
+        margin: 56px 80px;
+        padding: 75px;
+        width: 25%;
+        border-radius: 28px;
+    }
+    .btnn{ 
+        position: absolute;
+        height: 42px;
+        width: 160px;
+        top: 390px;
+        left: 40px;
+        display: block;
+        border-radius: 21px;
+        margin: 0px 9px;
+        
+        background-color: black;
+        color: white;
+    }
+    h2{ 
+        position: absolute;
+        left: 86px;
+        top: 150px;
+        color: green;
+    }
+    h1{
+        position: absolute;
+          left: 86px;
+        top: 190px;
+    }
+    p{
+        position: absolute;
+         left: 86px;
+        top: 265px;
+    }
+    p1{
+        position: absolute;
+        left: 86px;
+        top: 300px;
+    }
+    p2{
+        position: absolute;
+        left: 86px;
+        top: 320px;
+    }
+    img{
+        position: absolute;
+        height: 571px;
+width: 571px;
+right: 590px;
+top: 210px;
+border-radius: 0px;
+
+    }
+
+image{
+        position: absolute;
+    
+        height: 8px;
+        width: 8px;
+         top: 8px;
+        left: 0px;
+        border-radius: 0px;
+    }
+  
+
+    
+</style>
